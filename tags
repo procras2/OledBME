@@ -1,0 +1,135 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+ANEMOMETER_WINDDIRECTIONPIN	config.h	/^#define ANEMOMETER_WINDDIRECTIONPIN /;"	d
+ANEMOMETER_WINDOFFSET	config.h	/^#define ANEMOMETER_WINDOFFSET /;"	d
+ANEMOMETER_WINDSPEEDPIN	config.h	/^#define ANEMOMETER_WINDSPEEDPIN /;"	d
+BUFFERSTRINGSIZE	miscString.h	/^#define BUFFERSTRINGSIZE /;"	d
+CalDirection	davisvane.h	/^  int CalDirection;$/;"	m	struct:__anond2c14cfc0108	typeref:typename:int
+ContactBounceTime	daviswind.h	/^  volatile unsigned long ContactBounceTime; \/\/ Timer to avoid contact bounce in interrupt rout/;"	m	struct:__anond5a735640108	typeref:typename:volatile unsigned long
+DAVISSTRING	davis_anemometer.h	/^#define DAVISSTRING /;"	d
+DAVISstring	davis_anemometer.h	/^char DAVISstring[DAVISSTRING]; \/\/ Output buffer for DAVIS string$/;"	v	typeref:typename:char[]
+DUMMYSTRINGSIZE	miscString.h	/^#define DUMMYSTRINGSIZE /;"	d
+Direction	davisvane.h	/^  int Direction;$/;"	m	struct:__anond2c14cfc0108	typeref:typename:int
+LastValue	davisvane.h	/^  int LastValue;$/;"	m	struct:__anond2c14cfc0108	typeref:typename:int
+MAX_CACHE_AGE	config.h	/^#define MAX_CACHE_AGE /;"	d
+MISCSTRING_H	miscString.h	/^#define MISCSTRING_H$/;"	d
+OLEDBME_VERSION	version.h	/^#define OLEDBME_VERSION /;"	d
+Offset	davisvane.h	/^#define Offset /;"	d
+Rotations	daviswind.h	/^  volatile unsigned long Rotations;         \/\/ cup rotation counter used in interrupt routine$/;"	m	struct:__anond5a735640108	typeref:typename:volatile unsigned long
+SHORTJSON_H	shortJson.h	/^#define SHORTJSON_H$/;"	d
+SLICEDURATION	davis_anemometer.h	/^#define SLICEDURATION /;"	d
+TSL2591STRING	tsl2591.h	/^#define TSL2591STRING /;"	d
+TSL2591string	tsl2591.h	/^char TSL2591string[TSL2591STRING]; \/\/ Output buffer for TSL2591 string$/;"	v	typeref:typename:char[]
+USE_BME_SENSOR	config.h	/^#define USE_BME_SENSOR$/;"	d
+USE_MLX_SENSOR	config.h	/^#define USE_MLX_SENSOR$/;"	d
+USE_TSL2591_SENSOR	config.h	/^#define USE_TSL2591_SENSOR$/;"	d
+VaneValue	davisvane.h	/^  int VaneValue;$/;"	m	struct:__anond2c14cfc0108	typeref:typename:int
+WindSpeed	daviswind.h	/^  float WindSpeed;                          \/\/ speed miles per hour$/;"	m	struct:__anond5a735640108	typeref:typename:float
+__anon692532b00108	mlx90614.h	/^struct {$/;"	s
+__anona2b3fec90108	bme280.h	/^struct {$/;"	s
+__anonce251c1f0108	tsl2591.h	/^struct {$/;"	s
+__anond2c14cfc0108	davisvane.h	/^struct {$/;"	s
+__anond5a735640108	daviswind.h	/^struct {$/;"	s
+__anone5156dfe0108	davis_anemometer.h	/^struct {$/;"	s
+ambient_t	mlx90614.h	/^	float ambient_t;$/;"	m	struct:__anon692532b00108	typeref:typename:float
+anemometerData	davis_anemometer.h	/^} anemometerData = {false, 0, 0, 0.0, 0.0, 0.0};$/;"	v	typeref:struct:__anone5156dfe0108
+avgSpeed	davis_anemometer.h	/^  float avgSpeed;$/;"	m	struct:__anone5156dfe0108	typeref:typename:float
+bme	bme280.h	/^Adafruit_BME280 bme;$/;"	v	typeref:typename:Adafruit_BME280
+bmeData	bme280.h	/^} bmeData;$/;"	v	typeref:struct:__anona2b3fec90108
+bmeS1	bme280.h	/^char bmeS1[] = "BME280";$/;"	v	typeref:typename:char[]
+bmeS2	bme280.h	/^char bmeS2[] = "Temp";$/;"	v	typeref:typename:char[]
+bmeS3	bme280.h	/^char bmeS3[] = "Pres";$/;"	v	typeref:typename:char[]
+bmeS4	bme280.h	/^char bmeS4[] = "Hum";$/;"	v	typeref:typename:char[]
+bufferString	miscString.h	/^char bufferString[BUFFERSTRINGSIZE]; \/\/ Output buffer for BME string$/;"	v	typeref:typename:char[]
+calibrateTSL2591	tsl2591.h	/^bool calibrateTSL2591() {$/;"	f	typeref:typename:bool
+configureSensorTSL2591	tsl2591.h	/^void configureSensorTSL2591(tsl2591Gain_t gainSetting, tsl2591IntegrationTime_t timeSetting)$/;"	f	typeref:typename:void
+davisWindSetup	daviswind.h	/^void davisWindSetup() {$/;"	f	typeref:typename:void
+direction	davis_anemometer.h	/^  int direction;$/;"	m	struct:__anone5156dfe0108	typeref:typename:int
+direction_diffs	davis_anemometer.h	/^volatile float direction_diffs;   \/\/ and collect the diffs to build the average$/;"	v	typeref:typename:volatile float
+displayAnemometerParameters	davis_anemometer.h	/^String displayAnemometerParameters() {$/;"	f	typeref:typename:String
+dummyString	miscString.h	/^char dummyString[DUMMYSTRINGSIZE];$/;"	v	typeref:typename:char[]
+full	tsl2591.h	/^  uint32_t full;$/;"	m	struct:__anonce251c1f0108	typeref:typename:uint32_t
+gain	tsl2591.h	/^  int      gain;$/;"	m	struct:__anonce251c1f0108	typeref:typename:int
+getHeading	davisvane.h	/^void getHeading(int direction) {$/;"	f	typeref:typename:void
+humidity	bme280.h	/^	float humidity;$/;"	m	struct:__anona2b3fec90108	typeref:typename:float
+i2cscan	i2cscan.h	/^void i2cscan() {$/;"	f	typeref:typename:void
+initAnemometer	davis_anemometer.h	/^void initAnemometer() {$/;"	f	typeref:typename:void
+initial_direction	davis_anemometer.h	/^volatile float initial_direction; \/\/ remember the first direction measured$/;"	v	typeref:typename:volatile float
+ir	tsl2591.h	/^  uint16_t ir;$/;"	m	struct:__anonce251c1f0108	typeref:typename:uint16_t
+isMLX90614Present	mlx90614.h	/^bool isMLX90614Present() {$/;"	f	typeref:typename:bool
+isTSL2591Present	tsl2591.h	/^bool isTSL2591Present() {$/;"	f	typeref:typename:bool
+isr_rotation	davis_anemometer.h	/^void ICACHE_RAM_ATTR isr_rotation () {$/;"	f	typeref:typename:void ICACHE_RAM_ATTR
+isr_rotation	daviswind.h	/^void isr_rotation ()   {$/;"	f	typeref:typename:void
+jsonColon	shortJson.h	/^void jsonColon(char *jsonString) {$/;"	f	typeref:typename:void
+jsonComma	shortJson.h	/^void jsonComma(char *jsonString) {$/;"	f	typeref:typename:void
+jsonEnd	shortJson.h	/^void jsonEnd(char *jsonString)$/;"	f	typeref:typename:void
+jsonInit	shortJson.h	/^void jsonInit(char *jsonString, char * name)$/;"	f	typeref:typename:void
+jsonLcurl	shortJson.h	/^void jsonLcurl(char *jsonString) {$/;"	f	typeref:typename:void
+jsonQuote	shortJson.h	/^void jsonQuote(char *jsonString) {$/;"	f	typeref:typename:void
+jsonRcurl	shortJson.h	/^void jsonRcurl(char *jsonString) {$/;"	f	typeref:typename:void
+jsonS1	shortJson.h	/^const static char jsonS1[] = "\\"";$/;"	v	typeref:typename:const char[]
+jsonS2	shortJson.h	/^const static char jsonS2[] = ",";$/;"	v	typeref:typename:const char[]
+jsonS3	shortJson.h	/^const static char jsonS3[] = ":";$/;"	v	typeref:typename:const char[]
+jsonS4	shortJson.h	/^const static char jsonS4[] = "{";$/;"	v	typeref:typename:const char[]
+jsonS5	shortJson.h	/^const static char jsonS5[] = "}";$/;"	v	typeref:typename:const char[]
+jsonStart	shortJson.h	/^void jsonStart(char *jsonString, char * name)$/;"	f	typeref:typename:void
+lastInterrupt	davis_anemometer.h	/^volatile unsigned long lastInterrupt; \/\/ Last time a rotation has been detected$/;"	v	typeref:typename:volatile unsigned long
+lux	tsl2591.h	/^  float    lux;$/;"	m	struct:__anonce251c1f0108	typeref:typename:float
+maxSpeed	davis_anemometer.h	/^  float maxSpeed;$/;"	m	struct:__anone5156dfe0108	typeref:typename:float
+maxSpeed	davis_anemometer.h	/^volatile float maxSpeed;              \/\/ maximal wind speed since startTime$/;"	v	typeref:typename:volatile float
+minSpeed	davis_anemometer.h	/^  float minSpeed;$/;"	m	struct:__anone5156dfe0108	typeref:typename:float
+minSpeed	davis_anemometer.h	/^volatile float minSpeed;              \/\/ minimal wind speed since startTime$/;"	v	typeref:typename:volatile float
+miscS1	miscString.h	/^char miscS1[] = "init";$/;"	v	typeref:typename:char[]
+miscS2	miscString.h	/^char miscS2[] = "true";$/;"	v	typeref:typename:char[]
+miscS3	miscString.h	/^char miscS3[] = "false";$/;"	v	typeref:typename:char[]
+mlx	mlx90614.h	/^Adafruit_MLX90614 mlx = Adafruit_MLX90614();$/;"	v	typeref:typename:Adafruit_MLX90614
+mlx90614S1	mlx90614.h	/^char mlx90614S1[] = "MLX90614";$/;"	v	typeref:typename:char[]
+mlx90614S2	mlx90614.h	/^char mlx90614S2[] = "T amb";$/;"	v	typeref:typename:char[]
+mlx90614S3	mlx90614.h	/^char mlx90614S3[] = "T obj";$/;"	v	typeref:typename:char[]
+object_t	mlx90614.h	/^	float object_t;$/;"	m	struct:__anon692532b00108	typeref:typename:float
+pressure	bme280.h	/^	float pressure;$/;"	m	struct:__anona2b3fec90108	typeref:typename:float
+printVane	davisvane.h	/^void printVane() {$/;"	f	typeref:typename:void
+printWindspeed	daviswind.h	/^void printWindspeed() {$/;"	f	typeref:typename:void
+print_BME	bme280.h	/^void print_BME(void)$/;"	f	typeref:typename:void
+print_MLX	mlx90614.h	/^void print_MLX(void)$/;"	f	typeref:typename:void
+print_TSL	tsl2591.h	/^void print_TSL(void)$/;"	f	typeref:typename:void
+readAnemometer	davis_anemometer.h	/^void readAnemometer() {$/;"	f	typeref:typename:void
+reset	davis_anemometer.h	/^void reset(unsigned long time) {$/;"	f	typeref:typename:void
+rotations	davis_anemometer.h	/^  unsigned int rotations;$/;"	m	struct:__anone5156dfe0108	typeref:typename:unsigned int
+rotations	davis_anemometer.h	/^volatile unsigned int rotations;      \/\/ total number of wind wheel rotations$/;"	v	typeref:typename:volatile unsigned int
+serializeAnemometer	davis_anemometer.h	/^void serializeAnemometer(JsonDocument &doc) {$/;"	f	typeref:typename:void
+serializeBME	bme280.h	/^void serializeBME(JsonDocument &doc) {$/;"	f	typeref:typename:void
+serializeMLX	mlx90614.h	/^void serializeMLX(JsonDocument & doc) {$/;"	f	typeref:typename:void
+serializeTSL2591	tsl2591.h	/^void serializeTSL2591(JsonDocument &doc) {$/;"	f	typeref:typename:void
+sliceRotations	davis_anemometer.h	/^volatile unsigned int sliceRotations; \/\/ rotation occured in the current time slice$/;"	v	typeref:typename:volatile unsigned int
+slices	davis_anemometer.h	/^volatile unsigned int slices;         \/\/ number of slices occured since startTime$/;"	v	typeref:typename:volatile unsigned int
+startSlice	davis_anemometer.h	/^volatile unsigned long startSlice;    \/\/ start time of the current time slice to measure wind /;"	v	typeref:typename:volatile unsigned long
+startTime	davis_anemometer.h	/^volatile unsigned long startTime;     \/\/ overall start time for calculating the wind speed$/;"	v	typeref:typename:volatile unsigned long
+status	bme280.h	/^	bool status;$/;"	m	struct:__anona2b3fec90108	typeref:typename:bool
+status	davis_anemometer.h	/^  bool status;$/;"	m	struct:__anone5156dfe0108	typeref:typename:bool
+status	mlx90614.h	/^	bool status;$/;"	m	struct:__anon692532b00108	typeref:typename:bool
+status	tsl2591.h	/^  bool status;$/;"	m	struct:__anonce251c1f0108	typeref:typename:bool
+temperature	bme280.h	/^	float temperature;$/;"	m	struct:__anona2b3fec90108	typeref:typename:float
+timing	tsl2591.h	/^  int      timing;$/;"	m	struct:__anonce251c1f0108	typeref:typename:int
+tsl	tsl2591.h	/^Adafruit_TSL2591 tsl = Adafruit_TSL2591(2591);$/;"	v	typeref:typename:Adafruit_TSL2591
+updateAnemometer	davis_anemometer.h	/^void updateAnemometer() {$/;"	f	typeref:typename:void
+updateBME	bme280.h	/^void updateBME() {$/;"	f	typeref:typename:void
+updateBMEstring	bme280.h	/^void updateBMEstring(char * stringBuf) {$/;"	f	typeref:typename:void
+updateDAVISstring	davis_anemometer.h	/^void updateDAVISstring() {$/;"	f	typeref:typename:void
+updateMLX	mlx90614.h	/^void updateMLX() {$/;"	f	typeref:typename:void
+updateMLX90614string	mlx90614.h	/^void updateMLX90614string(char * stringBuf) {$/;"	f	typeref:typename:void
+updateTSL2591	tsl2591.h	/^void updateTSL2591(void)$/;"	f	typeref:typename:void
+updateTSL2591string	tsl2591.h	/^void updateTSL2591string() {$/;"	f	typeref:typename:void
+updateVane	davisvane.h	/^void updateVane() {$/;"	f	typeref:typename:void
+updateWindspeed	daviswind.h	/^void updateWindspeed() {$/;"	f	typeref:typename:void
+vaneData	davisvane.h	/^} vaneData;$/;"	v	typeref:struct:__anond2c14cfc0108
+visible	tsl2591.h	/^  uint16_t visible;$/;"	m	struct:__anonce251c1f0108	typeref:typename:uint16_t
+windData	daviswind.h	/^} windData;$/;"	v	typeref:struct:__anond5a735640108
+winddirection	davis_anemometer.h	/^int winddirection() {$/;"	f	typeref:typename:int
+windspeed	davis_anemometer.h	/^float windspeed(unsigned long time, unsigned long startTime, unsigned int rotations) {$/;"	f	typeref:typename:float
